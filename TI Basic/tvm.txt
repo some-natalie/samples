@@ -1,0 +1,164 @@
+)
+Prgm
+setMode("Pretty Print","ON")
+Local a,f,g,i,n,p
+ClrHome
+Dialog
+Title "About"
+Text "Find, Given"
+EndDlog
+PopUp {"Present Value","Future Value","Annuity"},find
+If find=1:Goto P
+If find=2:Goto F
+If find=3:Goto A
+Lbl P
+PopUp {"Future Value","Annuity","A Gradient"),given
+If given=1:Goto PF
+If given=2:Goto PA
+If given=3:Goto PAG
+Lbl PF
+Dialog
+Title "Find Present, Given Future"
+Request "F ($)",f
+Request "I (%)",i
+Request "N (periods)",n
+EndDlog
+expr(f)→f
+expr(i)→i
+expr(n)→n
+i/100→i
+f*(1/((1+i)^n))→p
+Dialog
+Title "Find Present, Given Future"
+Text "P = $"&string(p)
+EndDlog
+Goto end
+Lbl PA
+Dialog
+Title "Find Present, Given Annuity"
+Request "A ($)",a
+Request "I (%)",i
+Request "N (periods)",n
+EndDlog
+expr(a)→a
+expr(i)→i
+expr(n)→n
+i/100→i
+a*((((1+i)^n)-1)/(i*((1+i)^n)))→p
+Dialog
+Title "Find Present, Given Annuity"
+Text "P = $"&string(p)
+EndDlog
+Goto end
+Lbl PAG
+Dialog
+Title "Find Present, Given A Gradient"
+Request "G ($)",g
+Request "I (%)",i
+Request "N (periods)",n
+EndDlog
+expr(g)→g
+expr(i)→i
+expr(n)→n
+i/100→i
+((((1+i)^n)-(i*n)-1)/((i^2)*((1+i)^n))→p
+Dialog
+Title "Find Present, Given A Gradient"
+Text "P = $"&string(p)
+EndDlog
+Goto end
+Lbl F
+PopUp {"Present Value","Annuity"},given
+If given=1:Goto FP
+If given=2:Goto FA
+Lbl FP
+Dialog
+Title "Find Future, Given Present"
+Request "P ($)",p
+Request "I (%)",i
+Request "N (periods)",n
+EndDlog
+expr(p)→p
+expr(i)→i
+expr(n)→n
+i/100→i
+p*((1+i)^n)→f
+Dialog
+Title "Find Future, Given Present"
+Text "F = $"&string(f)
+EndDlog
+Goto end
+Lbl FA
+Dialog
+Title "Find Future, Given Annuity"
+Request "A ($)",a
+Request "I (%)",i
+Request "N (periods)",n
+EndDlog
+expr(a)→a
+expr(i)→i
+expr(n)→n
+i/100→i
+a*((((1+i)^n)-1)/i)→f
+Dialog
+Title "Find Future, Given Annuity"
+Text "F = $"&string(f)
+EndDlog
+Goto end
+Lbl A
+PopUp {"Present Value","Future Value","A Gradient"},given
+If given=1:Goto AP
+If given=2:Goto AF
+If given=3:Goto AAG
+Lbl AP
+Dialog
+Title "Find Annuity, Given Present"
+Request "P ($)",p
+Request "I (%)",i
+Request "N (periods)",n
+EndDlog
+expr(p)→p
+expr(i)→i
+expr(n)→n
+i/100→i
+p*((i*((1+i)^n))/(((1+i)^n)-1))→a
+Dialog
+Title "Find Annuity, Given Present"
+Text "A = $"&string(a)
+EndDlog
+Goto end
+Lbl AF
+Dialog
+Title "Find Annuity, Given Future"
+Request "F ($)",f
+Request "I (%)",i
+Request "N (periods)",n
+EndDlog
+expr(f)→f
+expr(i)→i
+expr(n)→n
+i/100→i
+f*(i/(((1+i)^n)-1))→a
+Dialog
+Title "Find Annuity, Given Future"
+Text "A = $"&string(a)
+EndDlog
+Goto end
+Lbl AAG
+Dialog
+Title "Find Annuity, Given A Gradient"
+Request "G ($)",g
+Request "I (%)",i
+Request "N (periods)",n
+EndDlog
+expr(g)→g
+expr(i)→i
+expr(n)→n
+i/100→i
+g*((1/i)-(n/(((1+i)^n)-1)))→a
+Dialog
+Title "Find Annuity, Given A Gradient"
+Text "A = $"&string(a)
+EndDlog
+Lbl end
+EndPrgm

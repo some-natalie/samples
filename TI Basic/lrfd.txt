@@ -1,0 +1,36 @@
+)
+Prgm
+Local d,l,lr,s,r,w,eq
+Dialog
+Title "LRFD Load Calculator"
+Request "Dead, d",d,0
+Request "Live, l",l,0
+Request "Roof Live, rl",rl,0
+Request "Snow, s",s,0
+Request "Rain, r",r,0
+Request "Wind, w",w,0
+Request "Earthquake, eq",eq,0
+EndDlog
+expr(d)→d
+expr(l)→l
+expr(rl)→rl
+expr(s)→s
+expr(r)→r
+expr(w)→w
+expr(eq)→eq
+1.4*d→a1
+(1.2*d)+(1.6*l)+(max{0.5*lr,0.5*s,0.5*r})→a2
+(1.2*d)+(max({1.6*lr,1.6*s,1.6*r}))+(max({0.5*l,0.8*w}))→a3
+(1.2*d)+(1.6*w)+(0.5*l)+(max({0.5*lr,0.5*s,0.5*r}))→a4
+(1.2*d)+e+(0.5*l)+(0.2*s)→a5
+(0.9*d)+(max({1.6*w,e}))→a6
+Dialog
+Title "LRFD Loads"
+Text "1.4d = "&string(a1)
+Text "1.2d+1.6l+max(lr,s,r) = "&string(a2)
+Text "1.2d+1.6max(lr,s,r)+.5max(l,w) = "&string(a3)
+Text "1.2d+1.6w+0.5l+.5max(lr,s,r) = "&string(a4)
+Text "1.2d+eq+.5l+.2s = "&string(a5)
+Text ".9d+max(1.6w,eq) = "&string(a6)
+EndDlog
+EndPrgm
