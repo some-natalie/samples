@@ -1,6 +1,7 @@
 % Geological Engineering
 % Program to find the general Kirsch solution.
-%   The Kirsch solution is a plane strain 2D solution for the stresses surround-ing a circular hole (ex. borehole or tunnel) in rock.
+%   The Kirsch solution is a plane strain 2D solution for the stresses surround-
+%   ing a circular hole (ex. borehole or tunnel) in rock.
 % Inputs
 fprintf('Keep consistent units. Angle in degrees. \n');
 fprintf('Stress in the Y (vertical) axis. \n');

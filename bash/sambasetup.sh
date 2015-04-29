@@ -5,7 +5,7 @@
 setenforce 0
 
 # Install samba and caja properties
-yum install caja-share samba system-config-samba samba-client -y
+yum install nautilus-share samba system-config-samba samba-client -y
 
 # Enable the service
 systemctl nmb enable
