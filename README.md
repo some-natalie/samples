@@ -1,9 +1,14 @@
 # samples
 Portfolio of some past work.
 
+## Config files
+An assortment of configuration files to programs I use frequently.
+* conkyrc-desktop - <code> ~.conkyrc </code> file for my main desktop for use with [Conky](http://conky.sourceforge.net/).  It shows CPU usage, memory usage, hard drive usage by drive, and many other stats on a quick heads-up basis.
+* bashrc - my .bashrc file.  It's got some stuff I wrote myself and stuff copy/pasted from various parts of the internet over the years.  The aliases to SaltStack and Packer are pretty useful.
+
+
 ## GNU bash
 An assortment of scripts to do odd jobs.
-
 * autostart.sh - I had a laptop that would never have the backlight set right, leaving the screen unreadably dark. This sets the backlight brightness to 100% at login, as well as starting a few other programs.
 * pdf_tiff_tesseract.sh - This script takes a scanned PDF and runs it through [Tesseract OCR](https://code.google.com/p/tesseract-ocr/ "Tesseract OCR").  I normally used only flat pages, but you can pre-process through [unpaper](https://www.flameeyes.eu/projects/unpaper "unpaper") to get rid of that curved-book-scanned-flat look first.  It requires [ImageMagick](http://www.imagemagick.org/ "ImageMagick").
 * sambasetup.sh - This script was written to make a student lab run smoother if they messed up and had to start from a clean image.  It disables SELinux, installs Samba, turns on the required services, and tells the student how to proceed with the next step of the lab assignment.
