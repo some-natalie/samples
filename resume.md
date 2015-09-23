@@ -14,9 +14,9 @@ Leesburg, VA
 * Currently deploying SaltStack (open source) in production environment.
 * Designed and built test environment for evaluating SaltStack, Puppet Enterprise, Chef, and Ansible.
 * Completed design, deployment, and documentation of Red Hat Satellite 5.7 for production environment.
-* Very experienced in the setup and administration of Red Hat Enterprise Linux (including CentOS and Fedora).  Also have supported Ubuntu and Linux Mint extensively.
+* Very experienced in the setup and administration of Red Hat Enterprise Linux (including CentOS and Fedora).  Also have supported Ubuntu, Suse Enterprise Linux, and Linux Mint extensively.
 * Deployed and managed EC2 and on-premises servers.
-* Experienced programmer in GNU Bash scripting, Python, and MATLAB or GNU Octave.  Also experienced in GNU Autotools, C++, and JavaScript.  Github:  [natalie-](https://github.com/natalie-)
+* Experienced programmer in GNU Bash scripting, Python, and MATLAB or GNU Octave.  Github:  [natalie-](https://github.com/natalie-)
 * Designed and built networks using wide area wireless technologies, IP cameras, and cellular modems in addition to more conventional LAN products.
 * Extensive skills in customer service.
 * Familiar with LibreOffice, Apache, MySQL, postfix, and Samba.
@@ -33,7 +33,7 @@ Leesburg, VA
 * Create and maintain a WordPress site (nanas-recipes.com) hosted on AWS utilizing EC2 and Route53, Google AdSense (Mar 2015)
 * Learning JavaScript through nodeschool.io curriculum (Feb 2015)
 * Refurbish, install, and configure CentOS 7 on a Dell PowerEdge server for a local company  (Dec 2014)
-* Redesign website for a Top 100 Amazon author (sandyraven.com) using Google Apps for Business and Analytics (Nov 2014)
+* Redesign website for a Top 100 Amazon [author](sandyraven.com) using Google Apps for Business and Analytics (Nov 2014)
 * Created onboarding manual for engineers at Kiewit Federal Group  (Oct 2014)
 * Compiled several open source projects for my Fedora desktop that are unavailable in popular repositories  (Sept 2014)
 * Design, furnish, and install a Windows-based small business network.  Final product included 1 router, 2 switches, 2 wireless access points, 1000’ of CAT5E cable, 1 Windows Server with Active Directory and SQL Server for client software, approximately 10 clients, 2 workgroup printers, industry-specific hardware and software, and all supporting documentation.  Contract includes 1 year support.  (Jan 2014)
@@ -41,8 +41,8 @@ Leesburg, VA
 **Employment:**
 * Staff technologist at Booz Allen Hamilton, through Apex Systems
   * On contract (May 2015 - currently employed)
+  * Develop in-house solutions to automate administration tasks using Bash and Python
   * Created test environment and evaluated SaltStack, Puppet Enterprise, Chef, and Ansible for production hosting environment
-  * Developed in-house solutions to automate administration tasks using Bash and Python
   * Deployed, configured, and trained staff on Red Hat Satellite, GitLab, and SaltStack
   * Migrated production machines from SUSE to Red Hat
   * Documented solutions and created guides and walkthroughs on internal Confluence site
