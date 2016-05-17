@@ -1,6 +1,6 @@
 ## Natalie Somersall
 
-Leesburg, VA
+Sterling, VA
 
 (434) 607-0999
 
@@ -11,22 +11,22 @@ Leesburg, VA
 **Objective:**  A challenging career growing my technical and interpersonal skills.
 
 **Profile:**  
-* Currently deploying SaltStack (open source) in production environment.
+* Deployed SaltStack (open source) in production environment including multiple varieties of enterprise Linux.
 * Designed and built test environment for evaluating SaltStack, Puppet Enterprise, Chef, and Ansible.
 * Completed design, deployment, and documentation of Red Hat Satellite 5.7 for production environment.
-* Very experienced in the setup and administration of Red Hat Enterprise Linux (including CentOS and Fedora).  Also have supported Ubuntu, Suse Enterprise Linux, and Linux Mint extensively.
+* Very experienced in the setup and administration of Red Hat Enterprise Linux (including CentOS and Fedora).  Also support Ubuntu, Suse Enterprise Linux, and Linux Mint extensively.
 * Deployed and managed EC2 and on-premises servers.
 * Experienced programmer in GNU Bash scripting, Python, and MATLAB or GNU Octave.  Github:  [natalie-](https://github.com/natalie-)
 * Designed and built networks using wide area wireless technologies, IP cameras, and cellular modems in addition to more conventional LAN products.
 * Extensive skills in customer service.
 * Familiar with LibreOffice, Apache, MySQL, postfix, and Samba.
-* Thorough experience with Windows (95 and forward), Microsoft Office suite, Exchange and Active Directory (NT+), and SQL Server (2003+).
 * Background in project management, equipment and plant economics
 * Excellent communication and leadership skills
-* Secret clearance
 * Engineer in Training certified, Virginia
 
 **Recent Projects:**
+* Administrator on GitHub Enterprise instance hosted on-premises (Apr 2016)
+* Deploy SaltStack open source (Nov 2016)
 * Deploy Red Hat Satellite 5.7 for production environment (Aug 2015)
 * Designed and built test environment for evaluating SaltStack, Puppet Enterprise, Chef, and Ansible (June 2015)
 * Install and configure Atlassian JIRA, Stash, and Bamboo on CentOS 6 for a local company (Mar 2015)
@@ -39,11 +39,10 @@ Leesburg, VA
 * Design, furnish, and install a Windows-based small business network.  Final product included 1 router, 2 switches, 2 wireless access points, 1000’ of CAT5E cable, 1 Windows Server with Active Directory and SQL Server for client software, approximately 10 clients, 2 workgroup printers, industry-specific hardware and software, and all supporting documentation.  Contract includes 1 year support.  (Jan 2014)
 
 **Employment:**
-* Staff technologist at Booz Allen Hamilton, through Apex Systems
-  * On contract (May 2015 - currently employed)
+* Staff technologist at Booz Allen Hamilton (May 2015 - currently employed)
   * Develop in-house solutions to automate administration tasks using Bash and Python
   * Created test environment and evaluated SaltStack, Puppet Enterprise, Chef, and Ansible for production hosting environment
-  * Deployed, configured, and trained staff on Red Hat Satellite, GitLab, and SaltStack
+  * Deployed, configured, and trained staff on Red Hat Satellite, GitHub, GitLab, and SaltStack
   * Migrated production machines from SUSE to Red Hat
   * Documented solutions and created guides and walkthroughs on internal Confluence site
 * Office Engineer, Kiewit Federal Group
