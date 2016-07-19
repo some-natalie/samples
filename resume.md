@@ -10,12 +10,13 @@ Sterling, VA
 
 **Objective:**  A challenging career growing my technical and interpersonal skills.
 
-**Profile:**  
-* Deployed SaltStack (open source) in production environment including multiple varieties of enterprise Linux.
+**Profile:**
+* Manage internal customers migration to GitHub Enterprise, including user support, customizations, and integrations with a wide variety of other internal tools.
+* Deployed SaltStack (open source) in two production environments for orchestration and configuration management, each including multiple varieties of enterprise Linux and complicated legacy systems with zero unanticipated downtime.
 * Designed and built test environment for evaluating SaltStack, Puppet Enterprise, Chef, and Ansible.
 * Completed design, deployment, and documentation of Red Hat Satellite 5.7 for production environment.
 * Very experienced in the setup and administration of Red Hat Enterprise Linux (including CentOS and Fedora).  Also support Ubuntu, Suse Enterprise Linux, and Linux Mint extensively.
-* Deployed and managed EC2 and on-premises servers.
+* Deployed and managed EC2 and on-premises servers, including vSphere and KVM.
 * Experienced programmer in GNU Bash scripting, Python, and MATLAB or GNU Octave.  Github:  [natalie-](https://github.com/natalie-)
 * Designed and built networks using wide area wireless technologies, IP cameras, and cellular modems in addition to more conventional LAN products.
 * Extensive skills in customer service.
