@@ -102,6 +102,7 @@ alias nocomment='grep -Ev '\''^(#|$)'\'''
 alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
 alias psu="ps uxU ${1}"
 alias pwgen='openssl rand -base64 12'
+alias random_macaddr="openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'"
 alias sshgen='ssh-keygen -t rsa -b 4096 -C "$(whoami)@$(hostname)-$(date -I)"'
 alias updates='dnf clean all && dnf update -y'
 alias wget='wget -c'
@@ -160,6 +161,16 @@ alias volts='for id in core sdram_c sdram_i sdram_p ; do echo -e "$id:\t$(/opt/v
 # # # # # # #
 # Functions #
 # # # # # # #
+
+# Print a remote server's SSL certificate to the terminal
+function sslcert() {
+	if [ "${1}" = "-h" ]; then
+    echo "Usage: sslcert [FQDN]"
+		echo "Prints SSL certificate of a remote server to the terminal."
+    return
+	fi
+	echo | openssl s_client -showcerts -servername "$@" -connect "$*":443 2>/dev/null | openssl x509 -inform pem -noout -text
+}
 
 # Extract a file
 function extract() {
