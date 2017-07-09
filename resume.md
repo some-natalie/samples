@@ -11,9 +11,9 @@ Sterling, VA
 **Objective:**  A challenging career growing my technical and interpersonal skills.
 
 **Profile:**
-* Manage internal customers migration to GitHub Enterprise, including user support, customizations, and integrations with a wide variety of other internal tools.
+* Manage internal migration to GitHub Enterprise, including user support, customizations, and integrations with a wide variety of other internal tools.  Leading training of support engineers for this tool set.
 * Deployed SaltStack (open source) in two production environments for orchestration and configuration management, each including multiple varieties of enterprise Linux and complicated legacy systems with zero unanticipated downtime.
-* Designed and built test environment for evaluating SaltStack, Puppet Enterprise, Chef, and Ansible.
+* Designed and built test environment for evaluating SaltStack, Puppet Enterprise, Ansible, and Chef.  Production experience in SaltStack, Puppet, and Ansible.
 * Completed design, deployment, and documentation of Red Hat Satellite 5.7 for production environment.
 * Very experienced in the setup and administration of Red Hat Enterprise Linux (including CentOS and Fedora).  Also support Ubuntu, Suse Enterprise Linux, and Linux Mint extensively.
 * Deployed and managed EC2 and on-premises servers, including vSphere and KVM.
@@ -31,16 +31,17 @@ Sterling, VA
 * Deploy Red Hat Satellite 5.7 for production environment (Aug 2015)
 * Designed and built test environment for evaluating SaltStack, Puppet Enterprise, Chef, and Ansible (June 2015)
 * Install and configure Atlassian JIRA, Stash, and Bamboo on CentOS 6 for a local company (Mar 2015)
-* Create and maintain a WordPress site (nanas-recipes.com) hosted on AWS utilizing EC2 and Route53, Google AdSense (Mar 2015)
+* Created, maintained, and decommissioned WordPress sites hosted on AWS utilizing EC2 and Route53, Google AdSense (Mar 2015)
 * Learning JavaScript through nodeschool.io curriculum (Feb 2015)
 * Refurbish, install, and configure CentOS 7 on a Dell PowerEdge server for a local company  (Dec 2014)
-* Redesign website for a Top 100 Amazon [author](sandyraven.com) using Google Apps for Business and Analytics (Nov 2014)
-* Created onboarding manual for engineers at Kiewit Federal Group  (Oct 2014)
+* Redesign website for a Top 100 Amazon author using Google Apps for Business and Analytics  (Nov 2014)
+* Created an onboarding manual for engineers at Kiewit Federal Group  (Oct 2014)
 * Compiled several open source projects for my Fedora desktop that are unavailable in popular repositories  (Sept 2014)
 * Design, furnish, and install a Windows-based small business network.  Final product included 1 router, 2 switches, 2 wireless access points, 1000’ of CAT5E cable, 1 Windows Server with Active Directory and SQL Server for client software, approximately 10 clients, 2 workgroup printers, industry-specific hardware and software, and all supporting documentation.  Contract includes 1 year support.  (Jan 2014)
 
 **Employment:**
 * Staff technologist at Booz Allen Hamilton (May 2015 - currently employed)
+  * Train developers and engineers on using git for source code version control.  Train support personnel to help answer questions, troubleshoot common problems with git repositories and integrations.
   * Develop in-house solutions to automate administration tasks using Bash and Python
   * Created test environment and evaluated SaltStack, Puppet Enterprise, Chef, and Ansible for production hosting environment
   * Deployed, configured, and trained staff on Red Hat Satellite, GitHub, GitLab, and SaltStack
