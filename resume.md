@@ -24,8 +24,8 @@ Sterling, VA
 * Engineer in Training certified, Virginia
 
 **Recent Projects:**
-* Deploy Satellite 6.x (Aug 2017)
-* Deploy Rundeck (July 2017)
+* Deploy Satellite 6.x and start migration to it (Aug 2017)
+* Deploy Rundeck and migrate existing workflows to it (July 2017)
 * Administrator on GitHub Enterprise instance hosted on-premises, training multiple development teams on migration and support personnel for ongoing migrations (Apr 2016)
 * Deploy SaltStack open source (Nov 2016)
 * Deploy Red Hat Satellite 5.7 for production environment (Aug 2015)
