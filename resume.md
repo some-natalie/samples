@@ -6,50 +6,31 @@ Sterling, VA
 
 ---
 
-**Objective:**  A challenging career growing my technical and interpersonal skills.
-
 **Profile:**
-* Deployed Rundeck and migrated complex tasks from calendar events, cron jobs, other automation platforms, and handwritten notes onto it across multiple platforms.  Integrated with SaltStack for provisioning, configuration management, and inventory.
-* Designed and deployed Red Hat Satellite 6.2 in production, migrating from Satellite 5.x.
-* Manage internal migration to GitHub Enterprise, including user support, customizations, and integrations with a wide variety of other internal tools.  Leading training of support engineers for this tool set.
-* Deployed SaltStack (open source) in two production environments for orchestration and configuration management, each including multiple varieties of enterprise Linux and complicated legacy systems with zero unanticipated downtime.
-* Designed and built test environment for evaluating SaltStack, Puppet Enterprise, Ansible, and Chef.  Production experience in SaltStack, Puppet, and Ansible.
-* Completed design, deployment, and documentation of Red Hat Satellite 5.7 for production environment.
-* Very experienced in the setup and administration of Red Hat Enterprise Linux (including CentOS and Fedora).  Also support Ubuntu, Debian, Arch, and SuSE Enterprise Linux extensively.
+* Deployed Rundeck and migrated complex tasks from calendar events, cron jobs, other automation platforms, and handwritten notes onto it across multiple platforms.  Integrated with SaltStack for provisioning, configuration management, and inventory.  Rewrote miscellaneous Python and shell scripts to accept input from and output to Rundeck.  (July 2017, ongoing expansion)
+* Lead internal migration to GitHub Enterprise, including user support, customizations, and integrations with a wide variety of other internal tools.  Manage training of support engineers for this tool set.  (Apr 2016, ongoing expansion)
+* Deployed SaltStack (open source) in two production environments for orchestration and configuration management, each including multiple varieties of enterprise Linux and complicated legacy systems with zero unanticipated downtime.  (Nov 2016, ongoing expansion)
+* Designed and deployed Red Hat Satellite 6.2 in production, migrating from Satellite 5.x.  (Aug 2017)
+* Completed design, deployment, and documentation of Red Hat Satellite 5.7 for production environment.  (Aug 2015)
+* Designed and built test environment for evaluating SaltStack, Puppet Enterprise, Chef, and Ansible (June 2015)
 * Deployed and managed EC2 and on-premises servers, including vSphere and KVM.
 * Experienced programmer in GNU Bash scripting, Python, and MATLAB or GNU Octave.  Github:  [natalie-](https://github.com/natalie-)
 * Designed and built networks using wide area wireless technologies, IP cameras, and cellular modems in addition to more conventional LAN products.
-* Extensive skills in customer service.
+* Extensive skills in customer service
 * Excellent communication and leadership skills
-* Engineer in Training certified, Virginia
-
-**Recent Projects:**
-* Deploy Satellite 6.x and start migration to it (Aug 2017)
-* Deploy Rundeck and migrate existing workflows to it (July 2017)
-* Administrator on GitHub Enterprise instance hosted on-premises, training multiple development teams on migration and support personnel for ongoing migrations (Apr 2016)
-* Deploy SaltStack open source (Nov 2016)
-* Deploy Red Hat Satellite 5.7 for production environment (Aug 2015)
-* Designed and built test environment for evaluating SaltStack, Puppet Enterprise, Chef, and Ansible (June 2015)
-* Install and configure Atlassian JIRA, Stash, and Bamboo on CentOS 6 for a local company (Mar 2015)
-* Created, maintained, and decommissioned WordPress sites hosted on AWS utilizing EC2 and Route53, Google AdSense (Mar 2015)
-* Learning JavaScript through nodeschool.io curriculum (Feb 2015)
-* Refurbish, install, and configure CentOS 7 on a Dell PowerEdge server for a local company  (Dec 2014)
-* Redesign website for a Top 100 Amazon author using Google Apps for Business and Analytics  (Nov 2014)
 
 **Employment:**
-* Staff technologist at Booz Allen Hamilton (May 2015 - currently employed)
+* Associate at Booz Allen Hamilton (May 2015 - currently employed)
   * Train developers and engineers on using git for source code version control.  Train support personnel to help answer questions, troubleshoot common problems with git repositories and integrations.
   * Develop in-house solutions to automate administration tasks using Bash and Python.
   * Created test environment and evaluated SaltStack, Puppet Enterprise, Chef, and Ansible for production hosting environment.
   * Deployed, configured, and trained staff on Red Hat Satellite, GitHub, GitLab, and SaltStack.
   * Migrated production machines from SUSE to Red Hat.
   * Documented solutions and created guides and walk-throughs on internal Confluence site.
-* Office Engineer, Kiewit Federal Group
-  * RSFO task orders for USACE, Ft. Meade, MD (February 2014 – January 2015)
+* Office Engineer, Kiewit Federal Group (February 2014 – January 2015)
   * Engineer for approximately $4 million worth of construction
 * Officer Candidate, United States Navy
   * Officer Candidate School, Newport, RI (May 2013 – November 2013)
-  * Duties include preventative maintenance and inspection scheduling of buildings and equipment, standing watches, briefing superiors, and instruction of junior candidates
   * Honorably discharged, November 2013
 * Adjunct Instructor
   * ITT Technical Institute, Salem, VA (June 2011 – May 2013)
@@ -62,5 +43,3 @@ Sterling, VA
 * Bachelor's of Science from Virginia Tech, double major, December 2010
   * Civil Engineering – Structures, Geotechnical, and Construction Track
   * Construction Engineering & Management
-* Associates of Arts & Sciences, Southside Virginia Community College, June 2006
-  * Southside Pre-Engineering Academy Program
