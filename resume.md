@@ -26,6 +26,6 @@ Linux system engineer experienced in developing infrastructure-as-code solutions
 * Adjunct Instructor, ITT Technical Institute, Salem, VA (June 2011 – May 2013)
   * Courses taught include Linux System Administration, IP Networking (CCNA exams 1-3), Database Development (SQL), Structured Cabling, Windows Desktop Support, Windows Server and Exchange Server.
 
-**Education:**
+**Education**
 * Master's of Science in Engineering from Virginia Tech
 * Bachelor's of Science in Engineering from Virginia Tech, double major
